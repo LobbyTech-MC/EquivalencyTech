@@ -1,10 +1,11 @@
 package io.github.sefiraat.equivalencytech.statics;
 
-import io.github.sefiraat.equivalencytech.EquivalencyTech;
-import org.apache.commons.lang.StringUtils;
+import java.util.logging.Level;
+
 import org.bukkit.inventory.ItemStack;
 
-import java.util.logging.Level;
+import io.github.sefiraat.equivalencytech.EquivalencyTech;
+import io.github.thebusybiscuit.slimefun4.libraries.commons.lang.StringUtils;
 
 public final class DebugLogs {
 

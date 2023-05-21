@@ -1,5 +1,12 @@
 package io.github.sefiraat.equivalencytech.misc;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
+import org.bukkit.Material;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.sefiraat.equivalencytech.EquivalencyTech;
 import io.github.sefiraat.equivalencytech.item.builders.CondensatorChest;
 import io.github.sefiraat.equivalencytech.item.builders.DissolutionChest;
@@ -7,14 +14,8 @@ import io.github.sefiraat.equivalencytech.item.builders.TransmutationOrb;
 import io.github.sefiraat.equivalencytech.statics.ContainerStorage;
 import io.github.sefiraat.equivalencytech.statics.Messages;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.libraries.commons.lang.WordUtils;
 import net.md_5.bungee.api.ChatColor;
-import org.apache.commons.lang.WordUtils;
-import org.bukkit.Material;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 
 public class Utils {
 

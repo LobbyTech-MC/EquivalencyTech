@@ -1,12 +1,14 @@
 package io.github.sefiraat.equivalencytech.recipes;
 
-import io.github.sefiraat.equivalencytech.EquivalencyTech;
-import io.github.sefiraat.equivalencytech.statics.ContainerStorage;
-import io.github.sefiraat.equivalencytech.statics.DebugLogs;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.implementation.items.backpacks.SlimefunBackpack;
-import org.apache.commons.lang.StringUtils;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.EnumMap;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.annotation.Nullable;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.inventory.FurnaceRecipe;
@@ -17,13 +19,13 @@ import org.bukkit.inventory.ShapelessRecipe;
 import org.bukkit.inventory.SmithingRecipe;
 import org.bukkit.inventory.StonecuttingRecipe;
 
-import javax.annotation.Nullable;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-import java.util.EnumMap;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import io.github.sefiraat.equivalencytech.EquivalencyTech;
+import io.github.sefiraat.equivalencytech.statics.ContainerStorage;
+import io.github.sefiraat.equivalencytech.statics.DebugLogs;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun4.implementation.items.backpacks.SlimefunBackpack;
+import io.github.thebusybiscuit.slimefun4.libraries.commons.lang.StringUtils;
 
 public class EmcDefinitions {
 
